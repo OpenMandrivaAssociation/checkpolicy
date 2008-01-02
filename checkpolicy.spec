@@ -8,7 +8,7 @@ Group: Development/Other
 Source: http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
 
 BuildRoot: %{_tmppath}/%{name}-buildroot
-BuildRequires: byacc flex sepol-devel >= %{libsepolver} selinux-devel
+BuildRequires: byacc flex sepol-static-devel >= %{libsepolver} selinux-devel
 
 %description
 Security-enhanced Linux is a feature of the Linux® kernel and a number
