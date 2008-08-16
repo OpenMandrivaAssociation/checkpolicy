@@ -1,8 +1,8 @@
 %define libsepolver 2.0.10-1
 Summary: SELinux policy compiler
 Name: checkpolicy
-Version: 2.0.6
-Release: %mkrel 3
+Version: 2.0.16
+Release: %mkrel 1
 License: GPL
 Group: Development/Other
 Source: http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
@@ -29,7 +29,7 @@ Only required for building policies.
 
 %build
 %make clean
-%make LIBDIR="%{_libdir}" CFLAGS="%{optflags}" 
+%make LIBDIR="%{_libdir}" CFLAGS="%{optflags}" CC=gcc
 
 %install
 rm -rf ${RPM_BUILD_ROOT}
