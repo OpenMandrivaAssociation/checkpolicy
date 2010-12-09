@@ -2,7 +2,7 @@
 Summary: SELinux policy compiler
 Name: checkpolicy
 Version: 2.0.16
-Release: %mkrel 2
+Release: %mkrel 3
 License: GPL
 Group: Development/Other
 Source: http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
