@@ -3,7 +3,7 @@
 Summary: 	SELinux policy compiler
 Name: 		checkpolicy
 Version: 	2.9
-Release: 	1
+Release: 	2
 License: 	GPLv2
 Group: 		Development/Other
 URL:	 	http://www.selinuxproject.org
