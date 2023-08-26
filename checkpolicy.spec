@@ -2,12 +2,12 @@
 %define libsepolver 2.5
 Summary: 	SELinux policy compiler
 Name: 		checkpolicy
-Version: 	2.9
-Release: 	2
+Version: 	3.5
+Release: 	1
 License: 	GPLv2
 Group: 		Development/Other
 URL:	 	http://www.selinuxproject.org
-Source0:	https://github.com/SELinuxProject/selinux/releases/download/20190315/%{name}-%{version}.tar.gz
+Source0:	https://github.com/SELinuxProject/selinux/releases/download/%{name}-%{version}.tar.gz
 BuildRequires: 	byacc 
 BuildRequires: 	bison 
 BuildRequires: 	flex 
