@@ -6,7 +6,7 @@ Version: 	2.9
 Release: 	2
 License: 	GPLv2
 Group: 		Development/Other
-URL:	 	http://www.selinuxproject.org
+URL:	 	https://www.selinuxproject.org
 Source0:	https://github.com/SELinuxProject/selinux/releases/download/20190315/%{name}-%{version}.tar.gz
 BuildRequires: 	byacc 
 BuildRequires: 	bison 
